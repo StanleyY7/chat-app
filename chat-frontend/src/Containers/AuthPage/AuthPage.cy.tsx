@@ -1,9 +1,9 @@
-import React from 'react'
-import AuthPage from './AuthPage'
+import React from "react";
+import AuthPage from "./AuthPage";
 
-describe('<AuthPage />', () => {
-  it('renders', () => {
+describe("<AuthPage />", () => {
+  it("renders", () => {
     // see: https://on.cypress.io/mounting-react
-    cy.mount(<AuthPage />)
-  })
-})
+    cy.mount(<AuthPage />);
+  });
+});
