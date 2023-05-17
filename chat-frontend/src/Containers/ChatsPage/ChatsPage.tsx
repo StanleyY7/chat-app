@@ -1,5 +1,4 @@
 import { PrettyChatWindow } from "react-chat-engine-pretty";
-
 const ChatsPage = (props: any) => {
   return (
     <div className="background">
